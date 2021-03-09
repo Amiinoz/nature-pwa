@@ -26,11 +26,23 @@ Build weather PWA
 
 
 ## Functionality
-*  [] Service worker
-*  [] Light house report
-*  [] Off line
-*  [] Installing web
-*  [] Installing mobile
+*  [x] Registering a service worker
+      * Installing
+      * Listening
+      * Activating
+
+*  [x] Light house report
+*  [x] Off line
+*  [x] Installing web
+*  [x] Installing mobile
+
+## Improvements
+*  [] Style
+
+
+## publishing App
+*  []
+
 
 
 

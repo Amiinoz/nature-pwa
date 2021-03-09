@@ -37,11 +37,17 @@ Build weather PWA
 *  [x] Installing mobile
 
 ## Improvements
-*  [] Style
+*  [x] Style
+*  [x] Final touch ups
 
+## Deployment
+*  []
 
 ## publishing App
 *  []
+
+## Credits
+* [x] Cover image - from Campo Santo
 
 
 

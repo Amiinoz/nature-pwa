@@ -26,7 +26,7 @@ const App = () => {
       <img className='main-logo' src={MainLogo} alt="Main Logo" />
 
 
-      <h2 className='heading'>Progressive Weather App</h2>
+      <h2 className='heading'>Weather App</h2>
 
       <input
         type='text'

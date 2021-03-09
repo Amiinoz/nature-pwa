@@ -2,8 +2,8 @@ html,
 body,
 #root {
   font: 0.9rem sans-serif;
-  background: #a3d5ff;
-  color: #6f73d2;
+  /* background: #a3d5ff;
+  color: #6f73d2; */
   height: 100%;
   margin: 0;
 }

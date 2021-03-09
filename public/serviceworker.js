@@ -20,14 +20,16 @@ self.addEventListener('install', (event) => {
 // Listening for requests
 self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request)
-      .then(() => {
-        return fetch(event.request)
-          .catch(() => catches.match('offline.html'))
-        if (window.Cache === undefined) return;
-      })
+    caches.match(event.request).then(function (response) {
+
+      return fetch(event.request)
+        .catch(() => caches.match('offline.html'))
+
+
+    })
+
   )
-})
+});
 
 
 // Activating the service worker
@@ -45,3 +47,8 @@ self.addEventListener('activate', (event) => {
     ))
   )
 })
+
+// Display massage on errors
+self.onerror = function (message) {
+  console.log(" Please check the name of the city");
+};

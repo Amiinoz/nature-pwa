@@ -2,8 +2,7 @@
 
 Weather app
 
-
-<!-- ![example-site](example-site.gif) -->
+https://progressiveweather.netlify.app/
 
 ## Objectives ☑
 Build weather PWA
@@ -41,13 +40,16 @@ Build weather PWA
 *  [x] Final touch ups
 
 ## Deployment
-*  []
+*  [x]
 
-## publishing App
-*  []
+## publishing to PWA Store
+*  [x]
 
 ## Credits
 * [x] Cover image - from Campo Santo
+
+
+## Done ☑️
 
 
 
